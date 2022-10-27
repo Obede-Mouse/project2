@@ -1,0 +1,72 @@
+body{
+    overflow: hidden;
+}
+
+
+
+
+ .slide{
+    width: 100%;
+    height: 450px;
+    display: flex;
+  
+}
+.rowtext{
+  
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    
+}
+.carousel-item h1{
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 33px;
+    margin-left: 0;
+    top: 200px;
+    font-size: 28px;
+}
+   
+    .carousel-item h1 div{
+        color: orangered;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-left: 0;
+        top: 200px;
+        font-size: 25px;
+
+}
+
+.carousel-item p{
+    color: black;
+    margin:50px 0 50px;
+    left: 0;
+    font-size: 15px;
+    font-weight: bold ;
+    margin-left: 0;
+    text-shadow: 5px 5px 10px ;
+
+}
+.carousel-item span{
+    background:rgba(141, 197, 65, 1);;
+  height: 3px;
+  width: 100px;
+  position: absolute;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.carousel-item button{
+    padding: 8px 20px;
+    background: #0c5ce3;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 450px;
+}
