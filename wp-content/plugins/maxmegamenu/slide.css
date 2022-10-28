@@ -13,9 +13,9 @@ body{
 }
 .rowtext{
   
-    width: 600px;
+    width: 100%;
     position: absolute;
-    top: 100px;
+    top: 20px;
     left: 10px;
     
 }
@@ -24,7 +24,7 @@ body{
     font-weight: bold;
     margin-bottom: 33px;
     margin-left: 0;
-    top: 200px;
+    top: 20px;
     font-size: 28px;
 }
    
@@ -33,7 +33,7 @@ body{
         font-weight: bold;
         margin-bottom: 30px;
         margin-left: 0;
-        top: 200px;
+        top: 30px;
         font-size: 25px;
 
 }
@@ -49,12 +49,12 @@ body{
 
 }
 .carousel-item span{
-    background:rgba(141, 197, 65, 1);;
+    background:rgba(141, 197, 65, 1);
   height: 3px;
   width: 100px;
   position: absolute;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .carousel-item button{
     padding: 8px 20px;
